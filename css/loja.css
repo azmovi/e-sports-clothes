@@ -2,17 +2,16 @@ p, h1{
     font-family: Arial;
 }
 
-.basic-box
+.grid-template
 {
-    display: inline-block;
-    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .basic-box img {
-    width: 300px;
-    height: 300px;
+    width: 85%;
+    height: 85%;
     background-color: gainsboro;
-    vertical-align: top;
 }
 .search-box
 {
@@ -46,6 +45,7 @@ p, h1{
 .sub-price
 {
     color: gray;
+    text-decoration: line-through;
 }
 .price
 {
